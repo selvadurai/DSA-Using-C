@@ -1,6 +1,10 @@
 Reviewing C
 ================
 
+
+##### Malloc 
+
+
 malloc()- Locates data outside of the program in the heap. 
 
 Examples Syntax of malloc:
