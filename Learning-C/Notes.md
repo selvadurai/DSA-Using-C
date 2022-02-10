@@ -8,12 +8,14 @@ Reviewing C
 malloc()- Locates data outside of the program in the heap and always returns a void pointer.  
 
 Examples Syntax of malloc:
-        int ptr*
-        ptr = (castType*) malloc(size);
+
+         int ptr*
+         ptr = (castType*) malloc(size);
   
  Malloc Example
  
  Locates 100 spaces in the heap
+ 
           int ptr*
           ptr = (float*) malloc(100 * sizeof(float));
 
