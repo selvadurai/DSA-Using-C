@@ -9,14 +9,12 @@ malloc()- Locates data outside of the program in the heap and always returns a v
 
 Examples Syntax of malloc:
         int ptr*
-        
         ptr = (castType*) malloc(size);
   
  Malloc Example
  
  Locates 100 spaces in the heap
           int ptr*
-          
           ptr = (float*) malloc(100 * sizeof(float));
 
 **Important Note** 
