@@ -15,6 +15,6 @@ Examples Syntax of malloc:
 
 **Important Note** 
 
- malloc() can only be free if located memory in the heap or if it's null
+ **malloc() can only be free if located memory in the heap or if it's null**
 
 To destroy malloc() from memory use he free() function
