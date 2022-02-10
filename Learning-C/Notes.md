@@ -13,6 +13,8 @@ Examples Syntax of malloc:
  
           ptr = (float*) malloc(100 * sizeof(float));
 
-# malloc() can only be free if located memory in the heap or if it's null
+**Important 
+
+ malloc() can only be free if located memory in the heap or if it's null
 
 To destroy malloc() from memory use he free() function
