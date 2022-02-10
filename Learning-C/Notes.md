@@ -13,7 +13,7 @@ Examples Syntax of malloc:
  
           ptr = (float*) malloc(100 * sizeof(float));
 
-**Important 
+**Important Note** 
 
  malloc() can only be free if located memory in the heap or if it's null
 
