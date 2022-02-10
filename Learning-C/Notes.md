@@ -2,7 +2,7 @@ Reviewing C
 ================
 
 
-##### Malloc 
+#### Malloc 
 
 
 malloc()- Locates data outside of the program in the heap. 
