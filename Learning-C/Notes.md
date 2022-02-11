@@ -7,6 +7,7 @@ An array is considered to be the same thing as a pointer to the first item in th
  
  
 
+![Array]()
 
 
 
