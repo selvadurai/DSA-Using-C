@@ -7,7 +7,7 @@ An array is considered to be the same thing as a pointer to the first item in th
  
  
 
-![Array]()
+![Array](https://github.com/selvadurai/DSA-Using-C/blob/main/Learning-C/Images/arrayPoint.gif?raw=true)
 
 
 
