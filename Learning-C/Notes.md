@@ -28,6 +28,11 @@ Output:
       1 2
      
 
+
+register - stores the vairable in the CPU instead of RAM. Mostly used in loops
+
+
+
 ### Pointers
 
 Pass by address vs pass by value
