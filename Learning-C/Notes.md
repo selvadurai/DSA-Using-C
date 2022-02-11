@@ -6,7 +6,7 @@ Reviewing C
 
 Pass by address vs pass by value
 
-
+![PassbyPointer](https://github.com/selvadurai/DSA-Using-C/blob/main/Learning-C/Images/passBYPointer.jpg?raw=true)
 
 
 ### Arrays
