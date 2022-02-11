@@ -19,9 +19,10 @@ Pass by address vs pass by value
         *n2 = temp;
       }
       
-// &a is address of a
-// &b is address of b
-swap(&a, &b);      
+     // &a is address of a
+     // &b is address of b
+      swap(&a, &b);   
+      
 *n1 and *n2 gives the value stored at address n1 and n2 respectively.
 
 Since n1 and n2 contain the addresses of a and b, anything is done to *n1 and *n2 will change the actual values of a and b.
