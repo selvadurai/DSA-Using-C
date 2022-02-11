@@ -19,6 +19,13 @@ A[] is a pointer to a array
      }
 
 
+
+A* means array as parameter
+
+     void fun(int *A,int){
+     
+     }
+
 Arrays can not be passed as value. They must be passed as address.
 
 Arrays can only be passed as address!!!
