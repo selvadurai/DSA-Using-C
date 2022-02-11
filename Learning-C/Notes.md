@@ -11,6 +11,14 @@ Pass by address vs pass by value
 ![PassbyPointer](https://github.com/selvadurai/DSA-Using-C/blob/main/Learning-C/Images/pass.png?raw=true)
 
 
+     // function definition to swap numbers
+     void swap(int* n1, int* n2) {
+        int temp;
+        temp = *n1;
+        *n1 = *n2;
+        *n2 = temp;
+      }
+
 ### Arrays
 
 An array is considered to be the same thing as a pointer to the first item in the array.
@@ -39,6 +47,7 @@ A* means array as parameter
 Arrays can not be passed as value. They must be passed as address.
 
 Arrays can only be passed as address!!!
+
 
 
 
