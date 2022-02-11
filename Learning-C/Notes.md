@@ -4,7 +4,7 @@ Reviewing C
 ### Reserverd Words
 
 
-static - the variable or object stays in memory. 
+**static** - the variable or object stays in memory. 
 
 For example 
 
@@ -29,7 +29,7 @@ Output:
      
 
 
-register - stores the vairable in the CPU instead of RAM. Mostly used in loops
+**register** - stores the variable in the CPU instead of RAM. Mostly used in loops
 
 
 
