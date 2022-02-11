@@ -1,6 +1,32 @@
 Reviewing C
 ================
 
+### Reserverd Words
+
+
+static - the variable or object stays in memory. 
+
+For example 
+
+     #include<stdio.h>
+   
+     int fun()
+     {
+      static int count = 0;
+      count++;
+      return count;
+    }
+  
+     int main()
+     {
+       printf("%d ", fun());
+       printf("%d ", fun());
+       return 0;
+     }
+
+Output:
+      1 2
+     
 
 ### Pointers
 
