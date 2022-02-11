@@ -7,7 +7,7 @@ struct Student{
 
 int main(){
     
-    struct Student s ={101,"Bojan"};
+    struct Student s ={101,"Bella"};
     
     printf(" Student name is %s  and student number is %d  \n",s.name,s.studentNum);
     return 0;
