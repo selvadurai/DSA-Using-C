@@ -29,6 +29,24 @@ Since n1 and n2 contain the addresses of a and b, anything is done to *n1 and *n
 
 Hence, when we print the values of a and b in the main() function, the values are changed.
 
+
+### Structs
+
+    struct account {
+       int account_number;
+    };
+    
+
+Both mean the same thing. Bother are pointers in the struct
+ accountp->account_number is the same as *accountp).account_number;
+
+**Important**
+
+
+You use **.** when you're dealing with variables. You use **->** when you are dealing with pointers
+    
+
+
 ### Arrays
 
 An array is considered to be the same thing as a pointer to the first item in the array.
@@ -79,6 +97,7 @@ Examples Syntax of malloc:
           ptr = (float*) malloc(100 * sizeof(float));
 
 **Important Note** 
+
 
  **malloc() can only be free if it allocated memory in the heap or if the type is a null**
 
