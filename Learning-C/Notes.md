@@ -19,6 +19,10 @@ A[] is a pointer to a array
      }
 
 
+Arrays can not be passed as value. They must be passed as address.
+
+
+
 #### Malloc 
 
 
