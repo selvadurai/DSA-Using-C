@@ -17,7 +17,8 @@ Recursion Notes
   
   **Stack**
   
-  ![image](https://user-images.githubusercontent.com/4705770/153945032-8ee970ce-c1df-484d-871b-2e438086a6d7.png)
+  ![image](https://user-images.githubusercontent.com/4705770/153945095-ef9def62-5c0c-4073-9079-ec088536fb50.png)
+
 
    
    
