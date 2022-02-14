@@ -12,6 +12,13 @@ Recursion Notes
 
         Fig 1.0
         func(3)->func(2)->func(1)->func(0)
+  
+  
+  
+  **Stack**
+  
+  ![image](https://user-images.githubusercontent.com/4705770/153945032-8ee970ce-c1df-484d-871b-2e438086a6d7.png)
+
    
    
    
