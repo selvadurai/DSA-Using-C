@@ -17,7 +17,7 @@ Recursion Notes
   
   **Stack**
   
-  Figure on how recsuive Functions are Stored on the Stack
+  How recsuive Functions are Stored on the Stack
   
   ![image](https://user-images.githubusercontent.com/4705770/153945095-ef9def62-5c0c-4073-9079-ec088536fb50.png)
 
