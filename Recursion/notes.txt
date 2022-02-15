@@ -40,3 +40,8 @@
 
 
    5. Indirect recursion- Call other functions in a function, in which it becomes a cycle. 
+   
+   
+   6. Nested Recursion - Will call function in the parameter of the same function.Its Recursion inside Recursion. 
+        
+      func(func(n-1)).
