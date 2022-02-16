@@ -53,4 +53,7 @@ Solution:
               TOH(n-1,B,A,C)
           }
           
-          
+Tower of the Henoi breaken down:
+
+![image](https://user-images.githubusercontent.com/4705770/154175041-18778d6a-8915-459a-9993-3d33994dc677.png)
+
