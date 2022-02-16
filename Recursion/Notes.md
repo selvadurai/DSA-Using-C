@@ -37,7 +37,6 @@ Recursion Notes
              func(n-1);
              n++;
              doSomething();
-             func(n-1);
          }
     } 
 
