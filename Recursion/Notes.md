@@ -36,7 +36,7 @@ Recursion Notes
 
 Sudo Code
 
-Time Complexity: F(0^2) 
+Time Complexity: F(n^2) 
 
 Solution:
 
