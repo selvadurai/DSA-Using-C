@@ -36,6 +36,8 @@ Recursion Notes
 
 Sudo Code
 
+Time Complexity: F(0^2) 
+
 Solution:
 
   1.     TOH(1,A,B,C)                      --Moving 1 Disk
