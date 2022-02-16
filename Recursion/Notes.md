@@ -53,7 +53,17 @@ Solution:
               TOH(n-1,B,A,C)
           }
           
-Tower of the Henoi breaken down:
+Tower of the Henoi breaken down using this Source code:
+
+    void TOH(int n,int a, int b, int c )    
+    {
+      if(n>0)
+      {
+         TOH(n-1,a,c,b);
+         printf("(%d,%d) \n",a,c);
+         TOH(n-1,b,a,c);
+      } 	   
+    }
 
 ![image](https://user-images.githubusercontent.com/4705770/154175041-18778d6a-8915-459a-9993-3d33994dc677.png)
 
