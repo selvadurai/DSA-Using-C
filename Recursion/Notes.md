@@ -26,3 +26,31 @@ Recursion Notes
    
    
 **Hanoi Problem**
+
+ Problem: Move the disk From A tower to C tower. The only rule is that you can't have big disk on top of small disk. 
+ 
+ 
+
+![image](https://github.com/selvadurai/DSA-Using-C/blob/main/Recursion/Images/5b5fb2670c9a185b2666637461e40c805fcc9ea5.png)
+
+
+Sudo Code
+
+Solution:
+
+  1.     TOH(1,A,B,C)                      --Moving 1 Disk
+           Move Disk From A to C using B 
+  
+  2.     TOH(2,A,C,B){ 
+          TOH(1,A,C,B)                     --Moving 2 Disk  
+            Move Disk A to C  using B      
+           TOH(1,B,A,C)
+         }  
+            
+  3.     TOH(n,A,B,C){                      --Moving 3 Disk
+              TOH(n-1,A,C,B)                      
+              Move Disk A to C  using B      
+              TOH(n-1,B,A,C)
+          }
+          
+          
