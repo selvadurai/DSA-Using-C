@@ -14,6 +14,55 @@ Recursion Notes
         func(3)->func(2)->func(1)->func(0)
   
   
+ 
+1. Static is created one time in memory. The same applies for 
+   global variable.
+
+2.Tail Recursion-If the recursive call is the last call in the function.
+
+   func(n){
+      if(n>0){
+         n++;
+         doSomething();
+         func(n-1);
+      }
+
+   }
+
+  
+3.Head Recursion-If the recursive call is first.
+  
+  func(n){
+      if(n>0){
+          func(n-1);
+          n++;
+          doSomething();
+          func(n-1);
+      }
+
+   }
+
+
+   4. Tree Recursion - If the function is calling it's self more than 1 time it's a tree recursion.
+
+        func(n){
+           if(n>0){
+              doSomething();
+              func(n-1);
+              func(n-1);
+            }
+
+   }
+
+
+   5. Indirect recursion- Call other functions in a function, in which it becomes a cycle. 
+   
+   
+   6. Nested Recursion - Will call function in the parameter of the same function.Its Recursion inside Recursion. 
+        
+      func(func(n-1)).
+  
+
   
   **Stack**
   
