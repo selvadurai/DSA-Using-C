@@ -2,6 +2,11 @@
 Array Notes
 =======
 
+**Complier**
+ 
+ Arrays are created in compile time. 
+
+
 **Dynamic Double Arrays**
  
  Dynamic Double arrays created by initalizing the 1d rows by pointing to a address in memory,the 1d pointer points to another address, which creates a 2d array.   
