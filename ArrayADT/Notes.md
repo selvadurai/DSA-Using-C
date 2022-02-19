@@ -20,4 +20,6 @@ Intersection - unsorted 0(n^2) or 0(m*n^2) sorted  0(m+n) or 0(n)
 
 Difference- unsorted 0(n^2) or 0(m*n^2) sorted  0(m+n) or 0(n)
 
+![Lecture Notes ](https://github.com/selvadurai/DSA-Using-C/blob/main/ArrayADT/Images/Screenshot%20from%202022-02-19%2015-52-35.png)
+
 
