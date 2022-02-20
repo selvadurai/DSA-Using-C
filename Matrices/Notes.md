@@ -12,8 +12,12 @@ Matrices
 
 
 
-2. Lower triangular matrix if all the entries above the diagonal are zero.
+2. **Lower Triangle Matrix** - A Lower triangular matrix if all the entries above the diagonal are zero.
     
     i>=j
     
     Insertation Forumula= matrix[i,j] -> [i*(i-1) / 2 ] + j-1
+
+    
+    ![image](https://user-images.githubusercontent.com/4705770/154826723-085f7ef1-9412-41cc-bcfd-20008f1061d0.png)
+
