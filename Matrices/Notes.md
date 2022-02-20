@@ -21,3 +21,9 @@ Matrices
     
     ![image](https://user-images.githubusercontent.com/4705770/154826723-085f7ef1-9412-41cc-bcfd-20008f1061d0.png)
 
+
+3.**Upper Triangle Matrix** -- A Upper triangular matrix if all the entries below the diagonal are zero.
+
+   Index Formula=[j*(j-1)/2]+i-1
+   
+   ![image](https://user-images.githubusercontent.com/4705770/154827412-5c351d28-163e-439f-b70c-15f2102c74ab.png)
