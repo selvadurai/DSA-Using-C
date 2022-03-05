@@ -1,0 +1,56 @@
+
+Next
+
+1.collection of trees are forest
+
+
+Binary Tree
+ 
+  -degree of 2 is a binary tree
+  -degree means the the maxium size children a parent can have..
+
+  The forumula for calculating the number of binary trees the number of nodes can have is T(n)=(2npower(Cn)) /n+1
+
+ 
+   Max Height Formula Max Height = 2power(n)  4=2power(2) so 4 is the max height   if there are two nodes. 
+
+
+The formula for filling in trees is T(n)=(2npower(Cn)) / (n+1) *(n!)
+
+  Formula
+  Min Nodes= h+1
+
+  Max Nodes= a(r pow(k+1) - 1) /(r-1)
+  Max Nodes =2pow(h+1)-1
+
+  Max Height h=n-1
+  Min Height h=log 2 (n+1)-1
+
+
+Internal Nodes means the node must have a child
+External Nodes mean the node must not have children
+
+Find external Node equation
+
+deg(0)= deg(2) + 1
+
+
+Strict Binary tree means the tree can only have a degree of 0 or 1
+
+
+Full Binary Tree- A height having maxium nodes.
+Complete Binary Tree - No blank spaces in Array
+other defination no blank spaces right to left
+
+
+
+Traversal
+
+Inorder Traversal:LEFT*ROOT*RIGHT
+
+Preorder Traversal:ROOT->Subtree(LEFT)->subtree(RIGHT)
+
+postorder Traveral: LEFT->RIGHT->NODE 
+
+level Order:level by level
+
