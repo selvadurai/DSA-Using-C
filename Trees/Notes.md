@@ -145,8 +145,24 @@ AVL Tree
    ![image](https://user-images.githubusercontent.com/4705770/156895212-1052387a-d2e3-4414-8c15-2c3cb25716a0.png)
 
 
+Red and Black Tree
+===
 
-   
+**Red and Black Tree Rules**
+
+1. Black height of the red-black tree is the number of black nodes on a path from the root node to a leaf node. Leaf nodes are also counted as black nodes. So, a    red-black tree of height h has black height >= h/2.
+
+2. Height of a red-black tree with n nodes is h<= 2 log2(n + 1).
+
+3. All leaves (NIL) are black.
+
+4. The black depth of a node is defined as the number of black nodes from the root to that node i.e the number of black ancestors.
+
+5. Every red-black tree is a special case of a binary tree. 
+
+
+
+![image](https://user-images.githubusercontent.com/4705770/156954967-2726ee14-b125-4309-8692-e8eb33c92e49.png)
    
 
      
