@@ -222,5 +222,25 @@ Two Cases:
 2-3 Tree
 =====
 
+**Insertation**
+
+1. Insert new leaf in appropriate place.
+2. Repeat until all nonleaf nodes have 2 or 3 children { if there is a node with 4 children, split the parent into two parent nodes, with 2 children each. { if split the root, then add a new root 
+3.  Adjust search values along insertion path
+
+
+![image](https://user-images.githubusercontent.com/4705770/156959569-3ff04de8-872f-4ea6-a128-7658eaa499ca.png)
+
+
+**Deletation**
+
+Case 1: Simple Delete
+
+Case 2:Delete And Merge
+
+Case 3: Borrow
+
+![image](https://user-images.githubusercontent.com/4705770/156959952-ce2a4f94-2f16-4913-ab31-244cb5871f06.png)
+
 
 
