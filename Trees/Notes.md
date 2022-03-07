@@ -163,6 +163,62 @@ Red and Black Tree
 
 
 ![image](https://user-images.githubusercontent.com/4705770/156954967-2726ee14-b125-4309-8692-e8eb33c92e49.png)
+
+
+**Insertation**
+
+Two Cases:
+
+1. If uncle is red, we do recoloring. 
+
+
+2. If uncle is black, we do rotations and/or recoloring
+
+
+
+![image](https://user-images.githubusercontent.com/4705770/156955700-fd86df0f-5c58-45bb-a252-89364e32aa15.png)
+
    
 
-     
+ Case 1:
+ 
+ ![image](https://user-images.githubusercontent.com/4705770/156956321-78f05394-0343-4a82-95fd-b7bf24131b50.png)
+ 
+ 
+ Case 2:
+ 
+ ![image](https://user-images.githubusercontent.com/4705770/156956354-45d5cfda-e0f0-4303-a925-7c99326540be.png)
+ 
+ Case 3:
+ 
+ ![image](https://user-images.githubusercontent.com/4705770/156956399-7ecc17da-a91d-4fbe-bba3-86733aaa8d70.png)
+ 
+ 
+ 
+ **Deletation**
+ 
+ Case 1:
+ 
+ If deletation node is RED than delete it. If the node has a parent and child, then join the parent and child after 
+ deleting the node. If the red node is forest than replace it with predessor or successor. 
+ 
+ Case 2:
+ 
+ If the node is BLACK and sibling is RED. Then perform right or left rotation on the sibling side of the node. 
+ 
+ ![image](https://user-images.githubusercontent.com/4705770/156957566-259321ef-3042-43a2-a9ce-b5ec846160af.png)
+
+ 
+ Case 3: 
+ 
+ 1. If the Node is BLACK and sibling is BLACK. Then do re-coloring parent=BLACK and sibling=RED. The recoloring will continue happening in the tree. If the siblings child is RED than perform zig zag rotation.
+
+
+![image](https://user-images.githubusercontent.com/4705770/156958571-3b971496-b085-4902-87cd-9c7feafd27f8.png)
+
+ 
+ 
+ 
+ 
+
+
