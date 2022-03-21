@@ -14,14 +14,11 @@ Double Hashing
 **Chaining***
 
 
+![image](https://user-images.githubusercontent.com/4705770/159197064-c4605def-cfbe-41e1-bac4-fafc55d824fb.png)
 
 
 
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/4705770/159197182-6727a973-d246-4924-a927-f3facbe58a1e.png)
 
 **Hashing with Linear Probe**
 
