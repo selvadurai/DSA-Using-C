@@ -19,7 +19,7 @@ The formula for filling in trees is T(n)=(2npower(Cn)) / (n+1) *(n!)
   Min Nodes= h+1
 
   Max Nodes= a(r pow(k+1) - 1) /(r-1)
-  Max Nodes =2pow(h+1)-1
+  Max Nodes =2pow(h-1)
 
   Max Height h=n-1
   Min Height h=log 2 (n+1)-1
